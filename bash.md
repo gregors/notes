@@ -6,3 +6,7 @@
 * control-r  search backwards
 * control-s  search forwards
 * control-g  exit search
+
+
+# edit current line
+Just do Ctrl-X then Ctrl-E
