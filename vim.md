@@ -1,6 +1,7 @@
 # Panes
 
 * swap panes - control+w control+x
+* make panes 50/50 - control+w =
 
 * https://www.techrepublic.com/blog/linux-and-open-source/using-vi-key-bindings-in-bash-and-zsh/
 * https://stackoverflow.com/questions/36843099/in-vim-how-can-i-delete-everything-between-quotes-including-the-quotes/36843100
