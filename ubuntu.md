@@ -1,3 +1,6 @@
+# Removing things
+https://askubuntu.com/questions/32730/how-to-remove-postgres-from-my-installation
+
 # Services
 
 ## list services
