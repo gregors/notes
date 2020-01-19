@@ -6,7 +6,6 @@
 * https://www.techrepublic.com/blog/linux-and-open-source/using-vi-key-bindings-in-bash-and-zsh/
 * https://stackoverflow.com/questions/36843099/in-vim-how-can-i-delete-everything-between-quotes-including-the-quotes/36843100
 
-
 # Text-objects
 
 * da"  - delete all including quotes
@@ -21,4 +20,15 @@ capitalize)
 
 * gUw - capitalize word
 * guw - lower case word
+
+# Multicursors
+https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db
+
+* gn - text object select word
+* cgn - change searched for word forwards, dot . - to repeat
+* n - skip to next word match
+
+# Show Ruler
+
+* :set ruler
 
