@@ -10,3 +10,6 @@
 
 # edit current line
 Just do Ctrl-X then Ctrl-E
+
+# edit previous command
+* `fc`
