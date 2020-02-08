@@ -3,9 +3,9 @@
 # POST nested json
 ```json
 {
- data: {
-   make: "ford",
-   model: "focus"
+ "data": {
+   "make": "ford",
+   "model": "focus"
  }
 }
 ```
