@@ -30,6 +30,7 @@ https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c4411
 
 # Refresh Vim screen
 * control + l
+* :redraw!
 
 # Show Ruler
 
