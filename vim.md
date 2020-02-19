@@ -28,7 +28,11 @@ https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c4411
 * cgn - change searched for word forwards, dot . - to repeat
 * n - skip to next word match
 
+# Refresh Vim screen
+* control + l
+
 # Show Ruler
 
 * :set ruler
+
 
