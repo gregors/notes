@@ -21,3 +21,7 @@
 }
 ```
 * ` http  PUT :4000/api/data/boom hello=hey good=bye message:='{"hey": "man"}'`
+
+
+# no verify for self signed ssl certs
+* `--verify=no`
