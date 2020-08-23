@@ -20,7 +20,27 @@ WHERE tablename = 'my_fancy_table';
 ```
 
 # shortcuts
-* \dt - show tables
+* show tables (public by default)
+```sql
+ \dt
+```
+
+* show tables across all schemas
+```sql
+\dt *.
+```
+
+* show tables specific schema
+```sql
+\dt boom.
+```
+or
+```sql
+SET search_path TO boom, public;
+\dt
+
+```
+
 * \dn - show schemas
 
 
