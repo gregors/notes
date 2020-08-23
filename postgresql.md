@@ -1,4 +1,9 @@
-# get list of indices
+# Get current db
+```sql
+SELECT current_database();
+```
+
+# Get list of indices
 
 ```sql
 SELECT *
