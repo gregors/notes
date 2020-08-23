@@ -13,3 +13,17 @@ SELECT *
 FROM pg_indexes
 WHERE tablename = 'my_fancy_table';
 ```
+
+# shortcuts
+* \dt - show tables
+* \dn - show schemas
+
+
+# Simple table creation
+
+```sql
+CREATE TABLE topics (
+  id serial PRIMARY KEY,
+  name VARCHAR (100) NOT NULL
+);
+```
