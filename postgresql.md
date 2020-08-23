@@ -52,3 +52,9 @@ CREATE TABLE topics (
   name VARCHAR (100) NOT NULL
 );
 ```
+
+# Show search path
+
+```sql
+show search_path;
+```
