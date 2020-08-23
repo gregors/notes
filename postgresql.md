@@ -53,8 +53,12 @@ CREATE TABLE topics (
 );
 ```
 
-# Show search path
-
+# Search path
+## Show search path
 ```sql
 show search_path;
+```
+## Edit search path
+```sql
+SET search_path TO my_new_path, public;
 ```
