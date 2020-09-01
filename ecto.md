@@ -88,3 +88,10 @@ end
 ```elixir
 Trains.Repo.aggregate(Dog, :count)
 ```
+
+### Query
+
+```elixir
+require Ecto.Query
+Ecto.query(Dog, name: "Peppers") |> Animals.Repo.all
+```
