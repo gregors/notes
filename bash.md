@@ -13,3 +13,9 @@ Just do Ctrl-X then Ctrl-E
 
 # edit previous command
 * `fc`
+
+# lines of code in a project
+
+```bash
+find . -name '*.rb' | xargs wc -l
+```
