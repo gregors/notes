@@ -15,3 +15,9 @@
  ```
    git diff --name-only
  ```
+
+## Diff between 2 branches with filter
+ remove migrations from diff
+ ```
+ git diff --name-only develop | grep -v migrate |  xargs git diff develop..
+ ```
