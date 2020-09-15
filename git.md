@@ -5,7 +5,6 @@
  git stash show
  ```
 
-
 ## 1, 2, 3 etc
  ```
  git stash show stash@{1}
@@ -20,4 +19,9 @@
  remove migrations from diff
  ```
  git diff --name-only develop | grep -v migrate |  xargs git diff develop..
+ ```
+
+## See first commit
+ ```bash
+ git log --reverse
  ```
