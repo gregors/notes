@@ -62,3 +62,8 @@ show search_path;
 ```sql
 SET search_path TO my_new_path, public;
 ```
+
+# Restore Heroku backup locally
+```bash
+pg_restore --verbose --clean --no-acl --no-owner -h localhost -d db_name db.dump
+```
