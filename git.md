@@ -25,3 +25,10 @@
  ```bash
  git log --reverse
  ```
+
+## Ignore whitespace in diff
+ ```bash
+ git diff -w
+ git diff --ignore-all-space
+ git diff --ignore-blank-lines
+ ```
