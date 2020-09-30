@@ -44,3 +44,12 @@ https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c4411
 :tabnew +Nbuf " where N is the buffer number
 :tabnew +18buf
 ```
+
+## Open list of last run commands (happens by mistake alot)
+```
+q:
+```
+to get out of this just go ahead and
+```
+:q
+```
