@@ -20,6 +20,11 @@ WHERE tablename = 'my_fancy_table';
 ```
 
 # shortcuts
+* show table ddl
+```sql
+ \d my_cool_table
+```
+
 * show tables (public by default)
 ```sql
  \dt
