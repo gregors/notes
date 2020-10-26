@@ -1,5 +1,10 @@
 # Vim
 
+## Moving to previous spot
+* control-o - backwards
+* control-i - forwards
+* :jumps - see all places
+
 ## Panes
 
 * swap panes - control+w control+x
