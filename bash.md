@@ -19,3 +19,13 @@ Just do Ctrl-X then Ctrl-E
 ```bash
 find . -name '*.rb' | xargs wc -l
 ```
+
+# ls by time
+```bash
+ls -t
+```
+
+# ls by time reverse
+```bash
+ls -rt
+```
