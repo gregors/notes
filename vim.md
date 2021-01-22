@@ -67,3 +67,24 @@ to get out of this just go ahead and
 ```
 :q
 ```
+
+## Change Directory
+### present working directory
+```
+:pwd
+```
+
+### change to the directory of the currently opened file
+```
+:cd %:p:h
+```
+
+### change to the directory of the current window
+```
+:lcd %:p:h
+```
+
+### auto change directory  in vimrc
+```
+set autochdir
+```
