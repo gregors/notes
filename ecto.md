@@ -52,7 +52,7 @@ defmodule Animals.Dog do
   use Ecto.Schema
 
   schema "dogs" do
-    field(:name, :string)
+    field(:name, :string, null: false)
     field(:age, :integer)
   end
 end
@@ -65,7 +65,7 @@ defmodule Animals.Dog do
   use Ecto.Schema
 
   schema "dogs" do
-    field(:name, :string)
+    field(:name, :string, null: false)
     field(:age, :integer)
   end
 
