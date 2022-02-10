@@ -34,6 +34,22 @@ defmodule Animals.Repo.Migrations.CreateDogs do
 end
 ```
 
+### alter table
+
+
+```elixir
+defmodule Animals.Repo.Migrations.CreateDogs do
+  use Ecto.Migration
+
+  def change do
+    # previously :string
+    alter table(:dogs) do
+      modify(:name, :text)
+    end
+  end
+end
+```
+
 ## run migration
 
 ```bash
