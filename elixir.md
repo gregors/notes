@@ -9,3 +9,7 @@
 ```
 export ERL_AFLAGS="-kernel shell_history enabled"
 ```
+
+## debug
+
+*  :sys.get_state(pid)
