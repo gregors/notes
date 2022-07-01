@@ -40,3 +40,15 @@ git branch -vv | grep ': gone]' | grep -v '\*' | awk '{ print $1; }' | xargs -r 
 git remote prune origin
 git prune
 ```
+
+### Show users & emails
+#### Current branch
+```bash
+git shortlog --summary --numbered --email
+git shortlog -sne
+```
+
+#### All branches
+```bash
+git shortlog -sne --all
+```
