@@ -1,3 +1,8 @@
+```
+When some field is just getting started and you don't understand it very well, It's very easy to confuse the essence of what you're doing with the tools that you use.
+
+~ Harold Abelson
+```
 # JS
 
 ```sh
