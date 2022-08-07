@@ -1,5 +1,7 @@
 # DD - data description aka disk destroyer
 
+https://unix.stackexchange.com/questions/170768/what-does-dd-stand-for
+
 ## Copy hard disk 
 ```sh
 # if - input filek
