@@ -1,5 +1,7 @@
 # Tcpdump
 
+https://opensource.com/article/18/10/introduction-tcpdump
+
 ## filter out ICMP
  -i interface
  -X show hexdump
