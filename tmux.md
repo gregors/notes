@@ -17,7 +17,7 @@
   prefix w
 
 ## name window
-  prefix `
+  prefix ,
 
 
 start new:
