@@ -1,0 +1,21 @@
+# erlang compile
+
+## Ubuntu 22.04
+
+```shell
+sudo apt-get install \
+build-essential \
+ncurses-devel \
+libssl-dev \
+libwxgtk3.0-gtk3-dev \
+xsltproc \
+libxml2-utils \
+fop
+```
+
+```shell
+./configure
+sudo make install
+make docs
+sudo make install-docs
+```
