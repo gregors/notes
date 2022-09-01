@@ -31,21 +31,21 @@ https://askubuntu.com/questions/32730/how-to-remove-postgres-from-my-installatio
 * cp -v a.txt b.txt
 
 ## turn off annoyances
-  systemctl list-units --type service --user | grep evolution
-  systemctl --user mask evolution-addressbook-factory.service
-  systemctl --user mask evolution-calendar-factory.service
-  systemctl --user mask evolution-source-registry.service
-  systemctl --user mask evolution-user-prompter.service
-  systemctl --user mask tracker-miner-fs-3.service
+* systemctl list-units --type service --user | grep evolution
+* systemctl --user mask evolution-addressbook-factory.service
+* systemctl --user mask evolution-calendar-factory.service
+* systemctl --user mask evolution-source-registry.service
+* systemctl --user mask evolution-user-prompter.service
+* systemctl --user mask tracker-miner-fs-3.service
 
 ## encrypt drives
-  sudp parted -l
-  sudo fdisk -l
-  man luks
-  sudo apt-get install cryptsetup
-  man cryptsetup
-  cryptsetup luksFormat /dev/sda3
-  sudo cryptsetup luksFormat /dev/sda3
-  cd /dev/sda3
-  sudo cryptsetup open /dev/sda3
-  sudo cryptsetup open /dev/sda3 data
+* sudp parted -l
+* sudo fdisk -l
+* man luks
+* sudo apt-get install cryptsetup
+* man cryptsetup
+* cryptsetup luksFormat /dev/sda3
+* sudo cryptsetup luksFormat /dev/sda3
+* cd /dev/sda3
+* sudo cryptsetup open /dev/sda3
+* sudo cryptsetup open /dev/sda3 data
