@@ -13,4 +13,7 @@ egrep 'pattern1|pattern2'
 grep -e pattern1 -e pattern2
 ```
 
-
+## remove items that appear on a list
+```bash
+cat list1.txt | grep -vFf list2.txt > filtered_list.txt
+```
