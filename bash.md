@@ -29,3 +29,20 @@ ls -t
 ```bash
 ls -rt
 ```
+
+# sort by numbers correctly
+```bash
+cat numbers.txt | sort
+1
+10
+11
+2
+20
+
+cat numbers.txt | sort -n
+1
+2
+10
+11
+20
+```
