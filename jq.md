@@ -5,7 +5,7 @@
  cat file | jq '.[].annotations'
  ```
 
-### get lenth
+### get length
  ```
  cat file | jq 'length'
  ```

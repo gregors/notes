@@ -4,6 +4,9 @@ https://askubuntu.com/questions/32730/how-to-remove-postgres-from-my-installatio
 # What's my shell?
 * `echo $SHELL`
 
+# What OS version?
+* `cat /etc/os-release`
+
 # check external monitors
 * xrandr --listmonitors
 

@@ -17,3 +17,8 @@ grep -e pattern1 -e pattern2
 ```bash
 cat list1.txt | grep -vFf list2.txt > filtered_list.txt
 ```
+
+## Get os pretty name
+```bash
+grep PRETTY_NAME /etc/os-release
+```
