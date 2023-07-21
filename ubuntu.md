@@ -52,3 +52,11 @@ https://askubuntu.com/questions/32730/how-to-remove-postgres-from-my-installatio
 * cd /dev/sda3
 * sudo cryptsetup open /dev/sda3
 * sudo cryptsetup open /dev/sda3 data
+
+## lock screen
+
+### enable
+```bash
+gsettings set org.gnome.desktop.lockdown disable-lock-screen false
+```
+* lock screen - super + L
