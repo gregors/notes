@@ -7,6 +7,9 @@
 * `podman stop name_or_hash`
 * `podman rm name_or_hash`
 
+### attach to an existing container
+* `podman exec -i myapp bash`
+
 ### ps
 * `podman ps` see running containers
 * `podman ps -a` see all containers
@@ -36,3 +39,16 @@ podman run -ti --rm registry.access.redhat.com/ubi8/httpd-24 bash
 ```sh
 podman port name_or_hash
 ```
+
+## Images
+
+### see image tree
+```sh
+podman image tree name_or_hash
+```
+
+### see diffs between layers
+```sh
+podman image diff myimage ubi8/httpd-24
+```
+
