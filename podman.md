@@ -1,6 +1,8 @@
 # Podman
 
 ## basics
+* `podman info`
+* `podman system df` see space used
 
 ### start/stop
 * `podman start name_or_hash`
