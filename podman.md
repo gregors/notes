@@ -4,6 +4,15 @@
 * `podman info`
 * `podman system df` see space used
 
+### OSX
+We need podman to run QEMU vm under the hood so we have a place to run containers.
+
+```bash
+  podman machine init
+  podman machine start
+  podman machine stop
+```
+
 ### start/stop
 * `podman start name_or_hash`
 * `podman stop name_or_hash`
