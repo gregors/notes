@@ -46,3 +46,13 @@ cat numbers.txt | sort -n
 11
 20
 ```
+
+# delete files
+
+delete a file with a dash
+
+`--` tells rm to stop parsing command line options
+
+```bash
+rm -- -annoying.file
+```
