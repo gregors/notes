@@ -2,12 +2,12 @@
 
 ## toggle fullscreen window
 ```
-command + control + F
+command + control + f
 ```
 
 ## to minimize an application
 ```
-command + M
+command + m
 ```
 
 ## to restore an application from being minimized
