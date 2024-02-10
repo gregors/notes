@@ -13,6 +13,9 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 ## debug
 
 *  :sys.get_state(pid)
+*  Process.info(pid, :current_function)
+*  spawn(fn -> :etop.start end)
+*  Process.exit(pid, :kill)
 
 
 ## force a gc
