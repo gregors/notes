@@ -16,6 +16,7 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 *  Process.info(pid, :current_function)
 *  spawn(fn -> :etop.start end)
 *  Process.exit(pid, :kill)
+*  iex --name laptop@192.168.1.2 --cookie "your_cookie_value" --remsh node1@server.local
 
 
 ## force a gc
