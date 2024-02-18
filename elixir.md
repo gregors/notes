@@ -10,6 +10,13 @@
 export ERL_AFLAGS="-kernel shell_history enabled"
 ```
 
+## mix
+
+### remove dependencies
+```
+mix deps.clean --unlock --unused
+```
+
 ## debug
 
 *  :sys.get_state(pid)
