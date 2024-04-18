@@ -9,6 +9,8 @@
 
 * swap panes - control+w control+x
 * make panes 50/50 - control+w =
+* move pane split left  - control+w  <
+* move pane split right - control+w  >
 
 ### Moving existing split pane into it's own tab
 * control+w, shift-t
