@@ -23,3 +23,19 @@ command + option
 ```
 command + backtick
 ```
+
+
+## copy full screen
+
+`control` commands place image in buffer
+
+```
+ command-shift-3
+ command-control-shift-3
+```
+
+## copy partial screen
+```
+ command-shift-4
+ command-control-shift-4
+```
