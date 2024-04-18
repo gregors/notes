@@ -24,6 +24,7 @@ mix deps.clean --unlock --unused
 *  spawn(fn -> :etop.start end)
 *  Process.exit(pid, :kill)
 *  iex --name laptop@192.168.1.2 --cookie "your_cookie_value" --remsh node1@server.local
+*  binding() # shows the currently bound variables, useful in iex
 
 
 ## force a gc
