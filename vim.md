@@ -24,6 +24,11 @@ see:
 * https://www.techrepublic.com/blog/linux-and-open-source/using-vi-key-bindings-in-bash-and-zsh/
 * https://stackoverflow.com/questions/36843099/in-vim-how-can-i-delete-everything-between-quotes-including-the-quotes/36843100
 
+## Combine lines
+
+* shift + J
+* gJ // combine without space
+
 ## Text-objects
 
 * da"  - delete all including quotes
