@@ -8,3 +8,6 @@
 
 ## Generate api app
 * `mix phx.new --no-html --no-assets --no-live --no-dashboard --no-gettext --no-ecto`
+
+## set phx logger to debug
+* `Logger.configure_backend(:console, level: :debug)`
